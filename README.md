@@ -1,1 +1,63 @@
-# Kenangansenja.github.io
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopi kenangan senja</title>
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!--mystyle-->
+    <link rel="stylesheet" href="senja.css" />
+  </head>
+  <body>
+    <!--navbar start-->
+
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--navbar end-->
+
+    <!--hero section start-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mari nikmati</h1>
+        <h1>secangkir<span>kopi</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+          obcaecati, quibusdam eos id quas,
+        </p>
+        <a href="#" class="cta">beli sekarang</a>
+      </main>
+    </section>
+    <!--hero section end-->
+
+    <!--feather icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--my javascript-->
+    <script src="kenangan.js"></script>
+  </body>
+</html>
