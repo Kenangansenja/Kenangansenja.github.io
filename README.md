@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -41,7 +42,8 @@
     <!--hero section start-->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari nikmati secangkir <span>kopi</span></h1>
+        <h1>Mari nikmati</h1>
+        <h1>secangkir <span>kopi</span></h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
           obcaecati, quibusdam eos id quas,
@@ -50,6 +52,160 @@
       </main>
     </section>
     <!--hero section end-->
+
+    <!--about section start-->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="tim-stief-YFFGkE3y4F8-unsplash.jpg" alt="Tentang kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            corporis quos, doloribus modi soluta sunt ipsa blanditiis dolore
+            aliquid amet! Assumenda nihil pariatur nobis repellat impedit
+            dolores, earum tenetur doloremque.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
+            maiores ut veritatis sint officiis consequuntur quos, aspernatur
+            ullam amet? Voluptatum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    <!--menu section start-->
+
+    <section id="menu" class="menu">
+      <h2><span>menu</span> kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet
+        libero doloribus aliquid, debitis ipsam!
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="paul-hanaoka-J1Ny3xxuNa0-unsplashg.jpg"
+            alt="coffe"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="paul-hanaoka-J1Ny3xxuNa0-unsplashg.jpg"
+            alt="coffe"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="paul-hanaoka-J1Ny3xxuNa0-unsplashg.jpg"
+            alt="coffe"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="paul-hanaoka-J1Ny3xxuNa0-unsplashg.jpg"
+            alt="coffe"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="paul-hanaoka-J1Ny3xxuNa0-unsplashg.jpg"
+            alt="coffe"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+        <div class="menu-card">
+          <img
+            src="paul-hanaoka-J1Ny3xxuNa0-unsplashg.jpg"
+            alt="coffe"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-tittle">- Espresso</h3>
+          <p class="menu-card-price">IDR 15K</p>
+        </div>
+      </div>
+    </section>
+
+    <!--menu section end-->
+
+    <!--contact section start-->
+
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet
+        libero doloribus aliquid, debitis ipsam!
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d9203.776878960634!2d106.78608457951302!3d-6.99875245673648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e1!3m2!1sid!2sid!4v1686471642834!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="Phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!--contact section end-->
+
+    <!--footer start-->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">muhamadirfan</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+
+    <!--footer end-->
 
     <!--feather icons-->
     <script>
@@ -60,3 +216,4 @@
     <script src="kenangan.js"></script>
   </body>
 </html>
+
