@@ -41,7 +41,7 @@
     <!--hero section start-->
     <section class="hero" id="home">
       <main class="content">
-        <h1>Mari nikmati secangkir<span>kopi</span></h1>
+        <h1>Mari nikmati secangkir <span>kopi</span></h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
           obcaecati, quibusdam eos id quas,
