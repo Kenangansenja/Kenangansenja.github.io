@@ -221,6 +221,7 @@ body {
     position: absolute;
     top: 200%;
     right: -200%;
+    left: 100%;
     background-color: #fff;
     width: 30rem;
     height: 100vh;
