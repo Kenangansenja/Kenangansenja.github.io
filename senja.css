@@ -176,7 +176,7 @@ body {
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
-    right: -200%;
+    right: -300%;
     background-color: #fff;
     width: 30rem;
     height: 100vh;
@@ -219,8 +219,8 @@ body {
 
   .navbar .navbar-nav {
     position: absolute;
-    top: 200%;
-    right: -100%;
+    top: 100%;
+    right: -300%;
     background-color: #fff;
     width: 30rem;
     height: 100vh;
