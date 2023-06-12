@@ -5,6 +5,7 @@
     <title>Kopi kenangan senja</title>
 
     <!--fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -185,11 +186,11 @@
     <!--contact section end-->
 
     <!--footer start-->
-    <footer>
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
       <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="https://instagram.com/famosteda.x.two?igshid=ZDdkNTZiNTM="><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://instagram.com/famosteda.x.two?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://instagram.com/famosteda.x.two?igshid=ZDdkNTZiNTM="><i class="fa fa-twitter w3-hover-opacity"></i></a>
       </div>
 
       <div class="links">
@@ -215,4 +216,3 @@
     <script src="kenangan.js"></script>
   </body>
 </html>
-
